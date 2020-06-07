@@ -71,7 +71,7 @@ public class TiendaBarrakita {
     public static void gestionCaja5() {
         CajaCinco caja5 = new CajaCinco();
         Scanner entrada = new Scanner(System.in);
-        int limite = 1;
+        int limite = 20;
         System.out.println("PRODUCTOS DE LA CAJA 5");
         caja5.getProductosExistentes().forEach(System.out::println);
         do {
